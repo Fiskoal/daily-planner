@@ -336,8 +336,8 @@ let dayEl = document.getElementById("currentDay");
 let day = moment().format("dddd");
 dayEl.textContent = day;
 
-// let hour = moment().format("H");
-let hour = 12;
+let hour = moment().format("H");
+// let hour = 12;
 let divs = $(".rounded");
 console.log("it is hour " + hour);
 

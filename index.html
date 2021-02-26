@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="assets/style.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
-  <script src="https://momentjs.com/downloads/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 </head>
 
 <body>
@@ -24,32 +24,29 @@
 
   <div class="container">
     <div class="row d-flex justify-content-center">
-
-      <div id="6" class="col-12 m-2 bg-light border rounded">
+      <div id="6" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-2">
+          <div class="col-2 d-flex align-items-center">
             <h4>6 AM to 7 AM</h4>
           </div>
-          <div class="col-8 border-right border-left d-flex align-items-center">
+          <div class="col-8 border-right border-left">
             <div class="row">
-              <div class="col-1">
-                <div class="row d-flex align-items-center">
-                  <button type="button" class=" col-12 add-button btn p-0 m-1">
-                    <img src="assets/images/add.png" class="col border-0 p-1">
-                  </button>
-                </div>
+              <div id="list-6" class="col-12 list-el">
               </div>
-              <div class="col-11">
-
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-6" placeholder="New to-do">
+                <button id="add-6" class="btn btn-primary">Submit</button>
               </div>
             </div>
           </div>
           <div class="col-2 d-flex align-items-center">
             <div class="row d-flex justify-content-around">
-              <button type="button" class="col-4 save-button btn p-0">
+              <button type="button" id="save-6" class="col-4 save-button btn p-0">
                 <img src="assets/images/save.png" class="col border-0 p-0">
               </button>
-              <button type="button" class="col-4 delete-button btn p-0">
+              <button type="button" id="delete-6" class="col-4 delete-button btn p-0">
                 <img src="assets/images/delete.png" class="col border-0 p-0">
               </button>
             </div>
@@ -57,90 +54,332 @@
         </div>
       </div>
 
-      <div id="7" class="col-12 m-2 bg-light border rounded">
+      <div id="7" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>7 AM to 8 AM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-7" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-7" placeholder="New to-do">
+                <button id="add-7" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-7" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-7" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="8" class="col-12 m-2 bg-light border rounded">
+      <div id="8" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>8 AM to 9 AM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-8" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-8" placeholder="New to-do">
+                <button id="add-8" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-8" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-8" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="9" class="col-12 m-2 bg-light border rounded">
+      <div id="9" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>9 AM to 10 AM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-9" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-9" placeholder="New to-do">
+                <button id="add-9" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-9" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-9" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="10" class="col-12 m-2 bg-light border rounded">
+      <div id="10" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>10 AM to 11 AM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-10" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-10" placeholder="New to-do">
+                <button id="add-10" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-10" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-10" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="11" class="col-12 m-2 bg-light border rounded">
+      <div id="11" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>11 AM to 12 PM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-11" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-11" placeholder="New to-do">
+                <button id="add-11" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-11" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-11" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="12" class="col-12 m-2 bg-light border rounded">
+      <div id="12" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>12 PM to 1 PM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-12" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-12" placeholder="New to-do">
+                <button id="add-12" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-12" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-12" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="13" class="col-12 m-2 bg-light border rounded">
+      <div id="13" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>1 PM to 2 PM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-13" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-13" placeholder="New to-do">
+                <button id="add-13" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-13" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-13" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="14" class="col-12 m-2 bg-light border rounded">
+      <div id="14" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>2 PM to 3 PM</h4>
           </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-14" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-14" placeholder="New to-do">
+                <button id="add-14" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-14" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-14" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div id="15" class="col-12 m-2 bg-light border rounded">
+      <div id="15" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
             <h4>3 PM to 4 PM</h4>
           </div>
-        </div>
-      </div>
-
-      <div id="16" class="col-12 m-2 bg-light border rounded">
-        <div class="row d-flex justify-content-center">
-          <div class="col-4">
-            <h4>4 PM to 5 PM</h4>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-15" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-15" placeholder="New to-do">
+                <button id="add-15" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-15" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-15" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
           </div>
         </div>
       </div>
 
-      <div id="17" class="col-12 m-2 bg-light border rounded">
+      <div id="16" class="col-12 m-2 border rounded">
         <div class="row d-flex justify-content-center">
-          <div class="col-4">
+          <div class="col-2 d-flex align-items-center">
+            <h4>4 PM to 5 PM</h4>
+          </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-16" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-16" placeholder="New to-do">
+                <button id="add-16" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-16" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-16" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="17" class="col-12 m-2 border rounded">
+        <div class="row d-flex justify-content-center">
+          <div class="col-2 d-flex align-items-center">
             <h4>5 PM to 6 PM</h4>
+          </div>
+          <div class="col-8 border-right border-left">
+            <div class="row">
+              <div id="list-17" class="col-12 list-el">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 mb-1 mt-1">
+                <input type="text" class="form-control mt-1 mb-1" id="input-17" placeholder="New to-do">
+                <button id="add-17" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-2 d-flex align-items-center">
+            <div class="row d-flex justify-content-around">
+              <button type="button" id="save-17" class="col-4 save-button btn p-0">
+                <img src="assets/images/save.png" class="col border-0 p-0">
+              </button>
+              <button type="button" id="delete-17" class="col-4 delete-button btn p-0">
+                <img src="assets/images/delete.png" class="col border-0 p-0">
+              </button>
+            </div>
           </div>
         </div>
       </div>

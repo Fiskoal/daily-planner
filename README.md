@@ -19,7 +19,7 @@ I used bootstrap to build my page, their container and row/column classes are ex
 
 I used javascript to add life to my forms and buttons, as well as dynamically create elements (list elements and individual delete buttons). Third party JS APIs used were jquery and moment.js.
 
-When you add a new to-do item, javascript is taking the value of the input field and spitting the value out into a new <li> element, and appending it into the container above the form. I also have javascript appending a child button to each li item to be able to delete any individual list item with $(this).parent().remove() (this is using jquery methods).
+When you add a new to-do item, javascript is taking the value of the input field and spitting the value out into a new li element, and appending it into the container above the form. I also have javascript appending a child button to each li item to be able to delete any individual list item with $(this).parent().remove() (this is using jquery methods).
   
 When you hit the save button, the html element is being saved into local storage, so that on future page load it is being retrieved and put onto the page.
 

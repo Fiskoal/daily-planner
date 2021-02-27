@@ -11,3 +11,7 @@ body {
 h4 {
   margin-bottom: 0;
 }
+
+.del-li {
+  border: none;
+}

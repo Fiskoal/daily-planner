@@ -69,6 +69,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-6").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton7).click(function () {
@@ -80,6 +90,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-7").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton8).click(function () {
@@ -91,6 +111,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-8").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton9).click(function () {
@@ -102,6 +132,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-9").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton10).click(function () {
@@ -113,6 +153,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-10").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton11).click(function () {
@@ -124,6 +174,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-11").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton12).click(function () {
@@ -135,6 +195,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-12").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton13).click(function () {
@@ -146,6 +216,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-13").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton14).click(function () {
@@ -157,6 +237,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-14").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton15).click(function () {
@@ -168,6 +258,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-15").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton16).click(function () {
@@ -179,6 +279,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-16").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 (addButton17).click(function () {
@@ -190,6 +300,16 @@ let saved17 = localStorage.getItem("saved17");
   list.append(newLi);
   $("li").addClass("mt-1 mb-1");
   $("#input-17").val("");
+  
+  let newButton = document.createElement("button");
+  newButton.textContent = "X";
+  $(newButton).addClass("ml-1 del-li");
+  newLi.appendChild(newButton);
+  
+  $(".del-li").on("click", function() {
+    console.log("del-li clicked!");
+    $(this).parent().remove();
+  })
 });
 
 //saveButton event listeners
